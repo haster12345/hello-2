@@ -150,9 +150,7 @@ Feedback and provisional marks will be provided in a markdown (.md) file in your
 <hr>
 
 ## TODO
-- [ ] link users and occupations
-  - would need to  call `execute_write` again in `populate_user_tx` with `populate_occupation_txn` 
-  - remove `user.occupation` from query in `populate_user_txn`
+- [x] link users and occupations
 - [x] Q 2C
 - [x] Q 2D
 
