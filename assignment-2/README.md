@@ -20,8 +20,8 @@ In this question, you will use the **Northwind** example database as a **collect
 
 1. Set up a MongoDB Atlas cluster.
 2. Create a Python notebook with `PyMongo` installed, and connect it to your Atlas cluster.
-3. Download the Northwind database (CSV files) from the [data](./data) folder. There are 6 files mapping categories, customers, employees, orders, products, and suppliers.
-4. Have a look at the [Northwind Entity-Relationship model](./fig/Northwind_ER.png) to get a sense of existing entities, primary/foreign keys, and relationships. Notice that `Orders` and `Order_Details` were merged into one single file (`orders.csv`).
+3. Download the Northwind database (CSV files) from the [data](data) folder. There are 6 files mapping categories, customers, employees, orders, products, and suppliers.
+4. Have a look at the [Northwind Entity-Relationship model](fig/Northwind_ER.png) to get a sense of existing entities, primary/foreign keys, and relationships. Notice that `Orders` and `Order_Details` were merged into one single file (`orders.csv`).
 5. Answer the questions below in your Python notebook. 
 
 1A) Create a new database (`db`) called `Northwind` and load each CSV file into a new collection (for instance, `customers.csv` into `db["customers"]`). **Important:** when loading the CSV files into documents, check for relationships (foreign keys) between entities (for instance, `products` and `suppliers`) and **manually create all relationships**, by mapping foreign keys into object IDs and/or embedding one document into another document. Write a short explanation (up to 3 paragraphs) on your report on which relationships are embedded and which ones are referenced using object IDs and why you decided for one or another approach.
@@ -88,7 +88,7 @@ Compute movie similarity via genre and actor overlap. We want to create or modif
 
 ### Assessment criteria
 
-See [AssessmentCriteria.pdf](./AssessmentCriteria.pdf).
+See [AssessmentCriteria.pdf](AssessmentCriteria.pdf).
 
 <hr>
 
