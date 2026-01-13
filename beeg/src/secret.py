@@ -1,1 +1,0 @@
-NEO4J_PASSWORD = "Adult25!"
