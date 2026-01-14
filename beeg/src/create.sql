@@ -54,32 +54,25 @@ CREATE TABLE IF NOT EXISTS reviews (
 CREATE TABLE IF NOT EXISTS visits (
     user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
     restaurant_id TEXT NOT NULL REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
-    ranking FLOAT,
+    ranking INTEGER,
     date_visited TIMESTAMP NOT NULL,
     PRIMARY KEY (user_id, restaurant_id, date_visited)
-);
-
--- FAVOURITES
-CREATE TABLE IF NOT EXISTS favourites (
-    user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
-    restaurant_id TEXT NOT NULL REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (user_id, restaurant_id)
 );
 
 -- REVIEW LIKES
 CREATE TABLE IF NOT EXISTS review_likes (
     user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
     review_id TEXT NOT NULL REFERENCES reviews(review_id) ON DELETE CASCADE,
+    liked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     PRIMARY KEY (user_id, review_id)
 );
 
 -- REVIEW PHOTOS
 CREATE TABLE IF NOT EXISTS review_photos (
-    photo_id SERIAL PRIMARY KEY,
     review_id TEXT NOT NULL REFERENCES reviews(review_id) ON DELETE CASCADE,
     photo_url VARCHAR(500) NOT NULL,
-    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    photo_sequence INTEGER NOT NULL,
+    PRIMARY KEY (review_id, photo_sequence)
 );
 
 -- OPENING HOURS
@@ -87,9 +80,9 @@ CREATE TABLE IF NOT EXISTS opening_hours (
     hours_id SERIAL PRIMARY KEY,
     restaurant_id TEXT NOT NULL REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
     weekday INTEGER NOT NULL CHECK (weekday BETWEEN 1 AND 7), -- 1=Monday, 7=Sunday
-    open_time TIME NOT NULL,
-    close_time TIME NOT NULL,
-    UNIQUE (restaurant_id, weekday)
+    open_time TEXT NOT NULL,
+    close_time TEXT NOT NULL,
+    PRIMARY KEY (restaurant_id, weekday)
 );
 
 -- Basic rating queries
