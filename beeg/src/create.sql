@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS visits (
 CREATE TABLE IF NOT EXISTS review_likes (
     user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
     review_id TEXT NOT NULL REFERENCES reviews(review_id) ON DELETE CASCADE,
-    liked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    liked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (user_id, review_id)
 );
 
@@ -77,7 +77,6 @@ CREATE TABLE IF NOT EXISTS review_photos (
 
 -- OPENING HOURS
 CREATE TABLE IF NOT EXISTS opening_hours (
-    hours_id SERIAL PRIMARY KEY,
     restaurant_id TEXT NOT NULL REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
     weekday INTEGER NOT NULL CHECK (weekday BETWEEN 1 AND 7), -- 1=Monday, 7=Sunday
     open_time TEXT NOT NULL,
