@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS reviews (
     review_id TEXT PRIMARY KEY,
     user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
     restaurant_id TEXT NOT NULL REFERENCES restaurants(restaurant_id) ON DELETE CASCADE,
-    rating DECIMAL(1,1) NOT NULL CHECK (rating BETWEEN 1 AND 5),
+    rating DECIMAL(2,1) NOT NULL CHECK (rating BETWEEN 1 AND 5),
     review_text TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
