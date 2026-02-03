@@ -1,0 +1,106 @@
+{
+  "fresh_and_chilled": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/fresh_and_chilled",
+    "full_path": "fresh_and_chilled"
+  },
+  "bakery": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/bakery",
+    "full_path": "bakery"
+  },
+  "food_cupboard": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/food_cupboard",
+    "full_path": "food_cupboard"
+  },
+  "frozen": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/frozen",
+    "full_path": "frozen"
+  },
+  "beer_wine_and_spirits": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/beer_wine_and_spirits",
+    "full_path": "beer_wine_and_spirits"
+  },
+  "tea_coffee_and_soft_drinks": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/tea_coffee_and_soft_drinks",
+    "full_path": "tea_coffee_and_soft_drinks"
+  },
+  "valentines_day": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/valentines_day",
+    "full_path": "valentines_day"
+  },
+  "shop_by_occasion": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/shop_by_occasion",
+    "full_path": "shop_by_occasion"
+  },
+  "new": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/new",
+    "full_path": "new"
+  },
+  "organic_shop": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/organic_shop",
+    "full_path": "organic_shop"
+  },
+  "first_for_welfare": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/first_for_welfare",
+    "full_path": "first_for_welfare"
+  },
+  "dietary_and_lifestyle": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/dietary_and_lifestyle",
+    "full_path": "dietary_and_lifestyle"
+  },
+  "waitrose_brands": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/waitrose_brands",
+    "full_path": "waitrose_brands"
+  },
+  "brandsnew": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/brandsnew",
+    "full_path": "brandsnew"
+  },
+  "new_lower_price": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/new_lower_price",
+    "full_path": "new_lower_price"
+  },
+  "everyday_value": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/everyday_value",
+    "full_path": "everyday_value"
+  },
+  "pancake_day": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/pancake_day",
+    "full_path": "pancake_day"
+  },
+  "easter": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/easter",
+    "full_path": "easter"
+  },
+  "christmas": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/christmas/christmas_dinner",
+    "full_path": "christmas/christmas_dinner"
+  },
+  "new_years_eve": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/new_years_eve/wine_fizz_and_drinks",
+    "full_path": "new_years_eve/wine_fizz_and_drinks"
+  },
+  "newsagents": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/newsagents/books",
+    "full_path": "newsagents/books"
+  },
+  "taste_of_japan": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/taste_of_japan/menyu",
+    "full_path": "taste_of_japan/menyu"
+  },
+  "mothers_day": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/mothers_day/mothers_day_gifts",
+    "full_path": "mothers_day/mothers_day_gifts"
+  },
+  "burns_night": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/burns_night/burns_supper_inspiration",
+    "full_path": "burns_night/burns_supper_inspiration"
+  },
+  "lunar_new_year": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/lunar_new_year/cooking_ingredients",
+    "full_path": "lunar_new_year/cooking_ingredients"
+  },
+  "best_of_british": {
+    "url": "https://www.waitrose.com/ecom/shop/browse/groceries/best_of_british/fruit_and_vegetables",
+    "full_path": "best_of_british/fruit_and_vegetables"
+  }
+}

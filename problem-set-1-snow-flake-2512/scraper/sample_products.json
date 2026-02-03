@@ -1,0 +1,35 @@
+[
+  {
+    "product_id": "820327",
+    "name": "GAIL's Seeded Sourdough",
+    "availability": "available",
+    "on_offer": "false",
+    "sponsored": "citrusAd-SponsoredProduct-Browse-300119-820327-1",
+    "price": null,
+    "image_url": "https://ecom-su-static-prod.wtrecom.com/images/products/3/LN_820327_BP_3.jpg",
+    "url": "https://www.waitrose.com/ecom/products/gails-seeded-sourdough/820327-744449-744450",
+    "size": "650g"
+  },
+  {
+    "product_id": "770979",
+    "name": "GAIL's San Francisco Sourdough",
+    "availability": "available",
+    "on_offer": "false",
+    "sponsored": "citrusAd-SponsoredProduct-Browse-300119-770979-2",
+    "price": null,
+    "image_url": "https://ecom-su-static-prod.wtrecom.com/images/products/3/LN_770979_BP_3.jpg",
+    "url": "https://www.waitrose.com/ecom/products/gails-san-francisco-sourdough/770979-744440-744441",
+    "size": "650g"
+  },
+  {
+    "product_id": "576970",
+    "name": "Waitrose Easter 4 Richly Fruited Hot Cross Buns",
+    "availability": "available",
+    "on_offer": "true",
+    "sponsored": null,
+    "price": null,
+    "image_url": "https://ecom-su-static-prod.wtrecom.com/images/products/3/LN_576970_BP_3.jpg",
+    "url": "https://www.waitrose.com/ecom/products/waitrose-easter-4-richly-fruited-hot-cross-buns/576970-794942-794943",
+    "size": "4s"
+  }
+]
