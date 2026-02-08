@@ -1,0 +1,402 @@
+[
+    {
+        "id": "821296",
+        "name": "No.1 Potato Dauphinoise",
+        "size": "420g",
+        "price": "£4.00",
+        "link": "https://www.waitrose.com/ecom/products/no1-potato-dauphinoise/821296-790959-790960",
+        "barcode": "5000169635025"
+    },
+    {
+        "id": "711884",
+        "name": "Waitrose Cauliflower Cheese",
+        "size": "450g",
+        "price": "£3.50",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-cauliflower-cheese/711884-704573-704574",
+        "barcode": "5000169569535"
+    },
+    {
+        "id": "942873",
+        "name": "La Vie Salami Sticks Classic",
+        "size": "75g",
+        "price": "£2.95",
+        "link": "https://www.waitrose.com/ecom/products/la-vie-salami-sticks-classic/942873-1-2",
+        "barcode": "3770018078793"
+    },
+    {
+        "id": "992260",
+        "name": "La Vie Salami Sticks Spicy",
+        "size": "75g",
+        "price": "£2.95",
+        "link": "https://www.waitrose.com/ecom/products/la-vie-salami-sticks-spicy/992260-1-2",
+        "barcode": "3770018078809"
+    },
+    {
+        "id": "086150",
+        "name": "Cooks' Ingredients Root Ginger",
+        "size": "",
+        "price": "£6.35",
+        "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-root-ginger/086150-43995-43996",
+        "barcode": "2042"
+    },
+    {
+        "id": "088903",
+        "name": "Waitrose Fairtrade Bananas",
+        "size": "Typical weight 0.18kg",
+        "price": "20p",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-fairtrade-bananas/088903-45703-45704",
+        "barcode": "0267680000007"
+    },
+    {
+        "id": "085125",
+        "name": "Essential British Loose Carrots",
+        "size": "Typical weight 0.14kg",
+        "price": "10p",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-loose-carrots/085125-43221-43222",
+        "barcode": "0252470000008"
+    },
+    {
+        "id": "085701",
+        "name": "Essential Loose Cup Mushrooms",
+        "size": "Typical weight 0.03kg",
+        "price": "10p",
+        "link": "https://www.waitrose.com/ecom/products/essential-loose-cup-mushrooms/085701-372143-43723",
+        "barcode": "1106"
+    },
+    {
+        "id": "085256",
+        "name": "Essential Brussels",
+        "size": "Typical weight 0.02kg",
+        "price": "5p",
+        "link": "https://www.waitrose.com/ecom/products/essential-brussels/085256-509603-43345",
+        "barcode": "1458"
+    },
+    {
+        "id": "085115",
+        "name": "Essential Onions",
+        "size": "Typical weight 0.15kg",
+        "price": "16p",
+        "link": "https://www.waitrose.com/ecom/products/essential-onions/085115-43203-43204",
+        "barcode": "0000000001229"
+    },
+    {
+        "id": "053457",
+        "name": "Essential British Free Range Semi-Skimmed Milk 4 Pints",
+        "size": "2.272litre",
+        "price": "£1.75",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-free-range-semi-skimmed-milk-4-pints/053457-26759-26760",
+        "barcode": "5000317979667"
+    },
+    {
+        "id": "085035",
+        "name": "Essential Loose Baby Potatoes",
+        "size": "Typical weight 0.06kg",
+        "price": "8p",
+        "link": "https://www.waitrose.com/ecom/products/essential-loose-baby-potatoes/085035-43141-43142",
+        "barcode": "1076"
+    },
+    {
+        "id": "086468",
+        "name": "Essential Cucumber",
+        "size": "each",
+        "price": "£1.00",
+        "link": "https://www.waitrose.com/ecom/products/essential-cucumber/086468-44158-44159",
+        "barcode": "0000001030334"
+    },
+    {
+        "id": "019292",
+        "name": "Perfectly Ripe Avocados",
+        "size": "2s",
+        "price": "£1.52",
+        "link": "https://www.waitrose.com/ecom/products/perfectly-ripe-avocados/019292-9331-9332",
+        "barcode": "5000169015926"
+    },
+    {
+        "id": "088528",
+        "name": "Essential Fairtrade Bananas",
+        "size": "5s",
+        "price": "£1.00",
+        "link": "https://www.waitrose.com/ecom/products/essential-fairtrade-bananas/088528-45453-45454",
+        "barcode": "5000169436769"
+    },
+    {
+        "id": "053448",
+        "name": "Essential British Free Range Semi-Skimmed Milk 2 Pints",
+        "size": "1.136litre",
+        "price": "£1.25",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-free-range-semi-skimmed-milk-2-pints/053448-26749-26750",
+        "barcode": "5000295012684"
+    },
+    {
+        "id": "856360",
+        "name": "Waitrose Shallots",
+        "size": "Typical weight 39g",
+        "price": "10p",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-shallots/856360-694024-694025",
+        "barcode": "8297"
+    },
+    {
+        "id": "517737",
+        "name": "Essential Sweet Potatoes",
+        "size": "Typical weight 294g",
+        "price": "38p",
+        "link": "https://www.waitrose.com/ecom/products/essential-sweet-potatoes/517737-349824-349825",
+        "barcode": "0254760000002"
+    },
+    {
+        "id": "032579",
+        "name": "Waitrose Echalion Shallots",
+        "size": "",
+        "price": "£4.00",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-echalion-shallots/032579-15919-15920",
+        "barcode": "0000000006309"
+    },
+    {
+        "id": "085242",
+        "name": "Essential Broccoli",
+        "size": "Typical weight 0.4kg",
+        "price": "96p",
+        "link": "https://www.waitrose.com/ecom/products/essential-broccoli/085242-43323-43324",
+        "barcode": "1083"
+    },
+    {
+        "id": "603507",
+        "name": "Waitrose Seedless Easy Peelers",
+        "size": "600g",
+        "price": "£2.55",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-seedless-easy-peelers/603507-85619-85620",
+        "barcode": "5000169104873"
+    },
+    {
+        "id": "088411",
+        "name": "Waitrose Loose Lemons",
+        "size": "Each",
+        "price": "40p",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-loose-lemons/088411-45361-45362",
+        "barcode": "5000169641866"
+    },
+    {
+        "id": "856706",
+        "name": "Essential Free Range White Eggs",
+        "size": "6s",
+        "price": "£1.50",
+        "link": "https://www.waitrose.com/ecom/products/essential-free-range-white-eggs/856706-653765-653766",
+        "barcode": "5000169482100"
+    },
+    {
+        "id": "878500",
+        "name": "Waitrose Large Vine Tomatoes",
+        "size": "",
+        "price": "£4.00",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-large-vine-tomatoes/878500-668796-668797",
+        "barcode": "9072"
+    },
+    {
+        "id": "085111",
+        "name": "",
+        "size": "",
+        "price": "",
+        "link": "https://www.waitrose.com/ecom/products/essential-red-onions/085111-43197-43198",
+        "barcode": "0000000001205"
+    },
+    {
+        "id": "085127",
+        "name": "",
+        "size": "",
+        "price": "",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-carrots/085127-415835-43225",
+        "barcode": "5000169011744"
+    },
+    {
+        "id": "086412",
+        "name": "Essential Red Peppers",
+        "size": "Typical weight 0.16kg",
+        "price": "70p",
+        "link": "https://www.waitrose.com/ecom/products/essential-red-peppers/086412-44120-44121",
+        "barcode": "0252130000003"
+    },
+    {
+        "id": "009596",
+        "name": "Waitrose Cherry Vine Tomatoes",
+        "size": "400g",
+        "price": "£3.45",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-cherry-vine-tomatoes/009596-4741-4742",
+        "barcode": "5000169099261"
+    },
+    {
+        "id": "878309",
+        "name": "Waitrose Red Seedless Grapes",
+        "size": "500g",
+        "price": "£2.50",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-red-seedless-grapes/878309-786006-786007",
+        "barcode": "5000169636534"
+    },
+    {
+        "id": "805332",
+        "name": "Waitrose Blueberries",
+        "size": "360g",
+        "price": "£4.60",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-blueberries/805332-665151-665152",
+        "barcode": "5000169520468"
+    },
+    {
+        "id": "086453",
+        "name": "Essential Bunched Salad Onions",
+        "size": "Each",
+        "price": "80p",
+        "link": "https://www.waitrose.com/ecom/products/essential-bunched-salad-onions/086453-44148-44149",
+        "barcode": "5063210068258"
+    },
+    {
+        "id": "053404",
+        "name": "Essential British Free Range Whole Milk 4 Pints",
+        "size": "2.272litre",
+        "price": "£1.75",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-free-range-whole-milk-4-pints/053404-26711-26712",
+        "barcode": "5000169015230"
+    },
+    {
+        "id": "085005",
+        "name": "Essential British Large White Potatoes",
+        "size": "Typical weight 0.28kg",
+        "price": "25p",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-large-white-potatoes/085005-43095-43096",
+        "barcode": "1014"
+    },
+    {
+        "id": "085147",
+        "name": "Essential Parsnips",
+        "size": "Typical weight 0.22kg",
+        "price": "34p",
+        "link": "https://www.waitrose.com/ecom/products/essential-parsnips/085147-43236-43237",
+        "barcode": "0267690000004"
+    },
+    {
+        "id": "085513",
+        "name": "Duchy Organic Carrots",
+        "size": "700g",
+        "price": "£1.40",
+        "link": "https://www.waitrose.com/ecom/products/duchy-organic-carrots/085513-43592-43593",
+        "barcode": "5000169034132"
+    },
+    {
+        "id": "033668",
+        "name": "Waitrose Small Fairtrade Bananas",
+        "size": "7s",
+        "price": "£1.25",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-small-fairtrade-bananas/033668-16881-16882",
+        "barcode": "5000169175569"
+    },
+    {
+        "id": "085437",
+        "name": "Essential Courgettes",
+        "size": "Typical weight 0.21kg",
+        "price": "65p",
+        "link": "https://www.waitrose.com/ecom/products/essential-courgettes/085437-43488-43489",
+        "barcode": "0252490000002"
+    },
+    {
+        "id": "085024",
+        "name": "Essential British Large Potatoes",
+        "size": "4s",
+        "price": "95p",
+        "link": "https://www.waitrose.com/ecom/products/essential-british-large-potatoes/085024-43126-43127",
+        "barcode": "5000169028926"
+    },
+    {
+        "id": "085201",
+        "name": "Essential Leeks",
+        "size": "Typical weight 0.21kg",
+        "price": "63p",
+        "link": "https://www.waitrose.com/ecom/products/essential-leeks/085201-43266-43267",
+        "barcode": "0000000001304"
+    },
+    {
+        "id": "086143",
+        "name": "Cooks' Ingredients Garlic",
+        "size": "Each",
+        "price": "55p",
+        "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-garlic/086143-43987-43988",
+        "barcode": "2707"
+    },
+    {
+        "id": "761298",
+        "name": "Waitrose Green Seedless Grapes",
+        "size": "500g",
+        "price": "£2.50",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-green-seedless-grapes/761298-785984-785985",
+        "barcode": "5000169636541"
+    },
+    {
+        "id": "738541",
+        "name": "Waitrose Chestnut Mushrooms",
+        "size": "250g",
+        "price": "£1.30",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-chestnut-mushrooms/738541-104980-104981",
+        "barcode": "5000169408223"
+    },
+    {
+        "id": "043101",
+        "name": "Essential Salted Butter",
+        "size": "250g",
+        "price": "£2.25",
+        "link": "https://www.waitrose.com/ecom/products/essential-salted-butter/043101-21272-21273",
+        "barcode": "0000000431019"
+    },
+    {
+        "id": "088937",
+        "name": "Duchy Organic Fairtrade Bananas",
+        "size": "6s",
+        "price": "£1.95",
+        "link": "https://www.waitrose.com/ecom/products/duchy-organic-fairtrade-bananas/088937-45726-45727",
+        "barcode": "5000169525524"
+    },
+    {
+        "id": "487080",
+        "name": "Waitrose Blueberries",
+        "size": "225g",
+        "price": "£2.80",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-blueberries/487080-497722-497723",
+        "barcode": "5000169393635"
+    },
+    {
+        "id": "085063",
+        "name": "Waitrose Maris Piper Potatoes",
+        "size": "2kg",
+        "price": "£2.20",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-maris-piper-potatoes/085063-372142-43169",
+        "barcode": "5000169029091"
+    },
+    {
+        "id": "495389",
+        "name": "Essential Unsalted Butter",
+        "size": "250g",
+        "price": "£2.25",
+        "link": "https://www.waitrose.com/ecom/products/essential-unsalted-butter/495389-70038-70039",
+        "barcode": "5000169129104"
+    },
+    {
+        "id": "085247",
+        "name": "Essential Cauliflower",
+        "size": "Each",
+        "price": "£1.35",
+        "link": "https://www.waitrose.com/ecom/products/essential-cauliflower/085247-43327-43328",
+        "barcode": "2431"
+    },
+    {
+        "id": "088067",
+        "name": "",
+        "size": "",
+        "price": "",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-strawberries/088067-372145-45059",
+        "barcode": "5000169176313"
+    },
+    {
+        "id": "085122",
+        "name": "",
+        "size": "",
+        "price": "",
+        "link": "https://www.waitrose.com/ecom/products/waitrose-onions/085122-43215-43216",
+        "barcode": "5000169029572"
+    }
+]
