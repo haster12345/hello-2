@@ -106,6 +106,7 @@ def get_products(driver: WebDriver, unique_products) -> tuple[list[dict], set]:
         items_data[i : i + chunk_size] for i in range(0, len(items_data), chunk_size)
     ]
 
+    # Using concurrent drivers to get product barcodes
     def worker(products):
         driver = webdriver.Chrome()
         for product in products:
@@ -167,7 +168,7 @@ def load_all_pages(driver: WebDriver):
 
 def write_to_json(data: list[dict], category: str):
     try:
-        with open(f"data/scraped/{category}.json", "w") as f:
+        with open(f"../data/scraped/{category}.json", "w") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
     except Exception as e:
         raise RuntimeError(f"could not write to json for category: {category}") from e
@@ -175,6 +176,9 @@ def write_to_json(data: list[dict], category: str):
 
 
 def main():
+    """
+    main function which scrapes waitrose for categories: bakery and fresh & chilled
+    """
     try:
         driver = webdriver.Chrome(options=Options())
         driver.get("https://www.waitrose.com/")
