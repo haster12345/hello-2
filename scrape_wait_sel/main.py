@@ -1,5 +1,6 @@
-import asyncio
 import json
+from concurrent.futures import ThreadPoolExecutor
+from math import ceil
 from typing import Optional
 
 from selenium import webdriver
@@ -98,20 +99,36 @@ def get_products(driver: WebDriver, unique_products) -> tuple[list[dict], set]:
         )
         unique_products.add(item_id)
 
-    for product in items_data:
-        link_to_product = product["link"]
-        product["barcode"] = get_barcode(driver, link_to_product)
+    print("getting barcodes")
+    N = 5
+    chunk_size = ceil(len(items_data) / N)
+    chunks = [
+        items_data[i : i + chunk_size] for i in range(0, len(items_data), chunk_size)
+    ]
+
+    def worker(products):
+        driver = webdriver.Chrome()
+        for product in products:
+            product["barcode"] = get_barcode(driver, product["link"])
+        driver.quit()
+
+    with ThreadPoolExecutor(max_workers=N) as pool:
+        pool.map(worker, chunks)
 
     return items_data, unique_products
 
 
+@retry(3, RuntimeError)
 def get_barcode(driver: WebDriver, link_to_product: Optional[str]) -> Optional[str]:
     if not link_to_product:
-        return None
+        return
     driver.get(link_to_product)
-    WebDriverWait(driver, 5).until(
-        EC.presence_of_element_located((By.XPATH, """//*[@id="main"]"""))
-    )
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, """//*[@id="main"]"""))
+        )
+    except TimeoutException:
+        return
 
     script = driver.find_element(By.XPATH, "/html/body/script[1]")
     if not script:
@@ -127,10 +144,11 @@ def get_barcode(driver: WebDriver, link_to_product: Optional[str]) -> Optional[s
     barcode = data["props"]["pageProps"]["product"]["barCodes"][0]
     if not barcode:
         print(f"warning: barcode not found for product link {link_to_product}")
-        return None
+        return
     return barcode
 
 
+@retry(3, RuntimeError)
 def load_all_pages(driver: WebDriver):
     i = 0
     while btn := driver.find_element(By.XPATH, """//*[@id="tSr"]/div/div[2]/button"""):
@@ -156,8 +174,6 @@ def write_to_json(data: list[dict], category: str):
     return
 
 
-# TODO: change this to 3
-@retry(0, RuntimeError)
 def main():
     try:
         driver = webdriver.Chrome(options=Options())
@@ -188,7 +204,6 @@ def main():
 
             load_all_pages(driver)
             data, unique_products = get_products(driver, unique_products)
-
             write_to_json(data, category)
 
     except Exception as e:
